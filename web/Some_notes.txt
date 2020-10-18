@@ -1,0 +1,7 @@
+# Bibliotecas que utilizei no projeto
+    axios
+    --> Fazer requisições na API
+    --> Também o fetch que é nativo --> Mas com axios dá pra definir a baseURL
+
+#Estudar sobre
+    Shimmer Effect

@@ -1,0 +1,73 @@
+#login-page {
+    display: flex;
+    width: 100%;
+}
+
+#login-page #form-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-page #form-content #form-box {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#login-page #form-content #form-box #top {
+    font-family: Nunito;
+    color: #5C8599;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#login-page #form-content #form-box .input-block{
+    display: flex;
+    flex-direction: column;
+}
+
+#login-page #form-content #form-box label {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    color: #8FA7B3;
+}
+
+#login-page #form-content #form-box .input-block input {
+    width: 30vw;
+    height: 10vh;
+    background: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 2%;
+}
+
+#login-page #form-content #form-box #remember-box input {
+    margin-right: 4%;
+}
+
+#login-page #form-content #form-box #avaliable-button {
+    background: #37C77F;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+#login-page #form-content #form-box #blocked-button {
+    background: #37C77F;
+    opacity: 0.5;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    padding: 1%;
+    opacity: 0.5;
+}

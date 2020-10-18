@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    background: #ebf2f5;
+}
+
+body, button, input, textarea {
+    font-family: Nunito, sans-serif;
+    /* Peso, tamanho, família */
+}

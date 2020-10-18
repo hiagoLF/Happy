@@ -1,0 +1,73 @@
+ts-node-dev ./node_modules/typeorm/cli.js
+--> Ver os comandos do typeorm
+
+yarn typeorm migration:create -n create_orphanages
+--> Foi o comando que usei para criar a migration dentro da pasta migrations
+--> migration é um esboço da tabela que será criada no banco de dados
+--> create_orphanages é o nome da migration
+
+yarn typeorm migration:run
+--> Executei isso para criar a tabela que escrevi na migration
+
+BeekeeperStudio
+--> Software para verificar se a tabela foi realmente criada no banco de dados SQL
+
+npm run typeorm migration:revert
+--> Comando usado para excluir a tabela que criei anteriormente.
+
+
+
+
+#Bibliotecas que usei aqui
+ts-node-dev
+--> Executar os arquivos TypeScript
+
+typeorm
+--> Fazer a ponte entre banco de dados e o node
+
+sqllite3
+--> Banco de dados
+
+multer
+--> Operações com UpLoads de imagens
+
+express-async-errors
+--> Biblioteca utilizada para pegar erros que não são capturados por estarem um funções asincronas
+
+yup
+--> Validação de dados
+
+cors
+--> Destravar o app para receber requisições de qualquer domínio
+
+# Estudar
+--> Variáveis ambiente
+
+
+# Arquitetura MVC
+--> Model - View - Controller
+--> Maneira de organizar os arquivos com relação de bancos de dados
+
+
+# Métodos HTTP
+    GET --> Pegar alguma informação
+    POST --> Enviar alguma informação
+    PUT --> Alterar alguma informação
+    DELETE --> Deletar alguma informação
+
+# Parâmetros
+    Query ==> http://localhost:3333/users?search=diego&page=2
+    ?parametro=valor
+    &concatenar parâmetros
+    req.query  
+
+    Route ==> https//localhost:3333/users/1
+    Geralmente fica depois da última barra
+    req.params
+
+    Body ==> Escondido
+    req.body
+
+# Descobri hoje no Visual Studio
+ctrl + space --> Comandos disponíveis
+ctrl + B --> hide/show barra de arquivos

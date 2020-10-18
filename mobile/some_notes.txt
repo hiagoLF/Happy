@@ -1,0 +1,27 @@
+# Bibliotecas Utilizadas
+expo
+--> O expo já é a framwork em si porque tô fazendo o app em cima dele.
+--> Dentro do próprio site do expo eu posso ter acesso a API
+
+expo-font
+--> Fonts para o expo --> Só precisa instalar uma vez. O resto é fonte
+--> Vai junto com @expor-google-fonts/nunito --> Aqui eu instalei a font nunito
+
+react-natigation
+--> Navegação entre telas
+--> Também tô instalando a versão do expo aqui... Lá no site tem as instruções.
+
+expo-image-picker
+--> Lidar com coleta de imagens nos aplicativos Expo
+--> expo install expo-image-picker
+
+#Fazer na milha extra
+--> Efeito de Shimmer
+--> Tema Claro/Escuro
+
+#Atalhos VSCode
+--> Ctrl + clicar no comando --> Te leva até a pasta do módulo.
+
+#Surpresa especial da RocketSeat
+www.tabnine.com/promotion/NextLevelWeek/
+--> Pegar promoção no TabNine
